@@ -1,0 +1,77 @@
+//TOP
+
+  //Inicials
+ 
+  .circle{
+    background-color: rgb(101, 202, 255);
+
+    width: 11.3em;
+    height: 9.8em; 
+    margin-left: 28.5px;
+    border-radius: 50%;
+    border: $border-color solid;
+
+    img{
+      width: 11.375em;
+      height: 11.375em;
+
+      position: relative;
+      top: -38%;
+    }
+  }
+
+
+
+  .name{
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $titles-color;
+    line-height: 0.825em;
+    padding-top: 0.5em;
+  }
+
+  .dat{
+    padding-top: 0.5em;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  .code{
+    padding-top: 0.85em;
+    color: rgba(0, 0, 0, 0.61) ;
+  }
+
+  //BUBLE
+
+  .buble{
+    background-color: $buble-b-color;
+
+    border: solid $border-color;
+    border-radius: 0.75em 0.75em 0.75em 0;
+    box-shadow: -8px 8px 10px 5px $shadow-color;
+
+    margin-top: 3.5em;
+    padding: 0.8em;
+    padding-top: 0;
+    text-align: left;
+
+    h3{
+      font-size: 1.2em;
+      padding-bottom: 0.2em;
+    }
+  }
+
+  //ABILITIES
+
+  .icons img{
+      width: 8em;
+      height: 8em;
+    }
+
+  
+    .icones li:first-child,
+    .icones li:last-child{
+    padding-top: 2.8em;
+    }

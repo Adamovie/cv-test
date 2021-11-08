@@ -1,0 +1,97 @@
+//BOTTOM
+
+
+  //SKILLS
+
+  
+
+
+  .skill-skillz{
+    background: #775f635b;
+    border-radius: 999em;
+    border: 2px solid $border-color ;
+  }
+
+  .skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 999em; 
+    padding-right: 5px; 
+  }
+  
+  .html{
+    width: 90%;
+    background-color: #4CAF50;
+  }
+
+  .css{
+    width: 80%;
+    background-color: #2196F3;
+  }
+
+  .sass{
+    width: 70%;
+    background-color: #808080;
+  }
+
+  .js{
+    width: 45%;
+    background-color: #F44336;
+  }
+
+  .Ps{
+    width: 60%;
+    background-color: #bada55;
+  }
+
+  //INTERESTING
+
+  .interest h3{
+    margin: 0.8em 0;
+  }
+
+  .interest img{
+    width: 4.5em;
+  }
+
+
+  //CERTIFICATION
+  .certification{
+    a{
+      text-decoration: none;
+ 
+    }
+
+    img{
+      width:  10em; 
+      height: 14em;
+
+      padding-top: 1em;
+
+      opacity: 0.65;
+    }
+
+  }
+
+  //CONTACT
+
+  .contact{
+    text-align: left;
+    padding-left: 10%;
+    margin: 0.8em 0;
+
+    a{
+      text-decoration: none;
+      color:$titles-color;
+      font-size: 2em;
+      font-weight: bolder;
+      line-height: 1.25em;
+    }
+
+    & a:hover,
+      a:active{
+      color: lighten( $titles-color ,$amount: 20%)
+      }
+}

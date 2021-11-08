@@ -1,0 +1,40 @@
+//GLOBAL
+
+body{ 
+    color: $text-color;
+    background: #c2c2c14f;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.29em;
+    letter-spacing: 0.03em;
+
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+  }
+
+  h3{
+    margin: 0.8em 0;
+  }
+
+  .container{
+    max-width: 73.125em;
+    margin:  0 auto;
+
+  }
+
+  .line{
+    color: $titles-color;
+    font-size: 1.45em;
+    font-weight: bold;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+
+    &:after {
+        content: "";
+        flex: 1;
+        border-bottom:  $border-color solid;
+        margin: auto;
+      }
+
+  }
+
