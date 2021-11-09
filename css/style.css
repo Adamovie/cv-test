@@ -31,7 +31,7 @@ h3 {
   background-color: #65caff;
   width: 11.3em;
   height: 9.8em;
-  margin-left: 28.5px;
+  margin-left: 1.78125em;
   border-radius: 50%;
   border: orange solid; }
   .circle img {
@@ -62,7 +62,7 @@ h3 {
   background-color: hotpink;
   border: solid orange;
   border-radius: 0.75em 0.75em 0.75em 0;
-  box-shadow: -8px 8px 10px 5px #635e5e2f;
+  box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f;
   margin-top: 3.5em;
   padding: 0.8em;
   padding-top: 0;
@@ -83,11 +83,11 @@ h3 {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  height: 300px; }
+  height: 18.75em; }
   .timeline-wrapper .middle-line {
     position: absolute;
     width: 100%;
-    height: 5px;
+    height: 0.3125em;
     top: 50%;
     transform: translateY(-50%);
     background: orange; }
@@ -95,48 +95,48 @@ h3 {
 .box {
   width: 21%;
   position: relative;
-  min-height: 300px;
+  min-height: 18.75em;
   float: right; }
   .box .date {
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 0;
     transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
+    width: 3.125em;
+    height: 3.125em;
     border-radius: 100%;
     background: green;
-    border: 2px solid orange; }
+    border: 0.125em solid orange; }
   .box .date p {
     color: white;
     margin-top: 0.95em; }
   .box .box-content {
-    border-radius: 5px;
+    border-radius: 0.3125em;
     background-color: hotpink;
-    width: 180px;
+    width: 11.25em;
     position: absolute;
-    left: -77px;
-    padding: 15px;
-    border: 2px solid orange; }
+    left: -4.8125em;
+    padding: 0.9375em;
+    border: 0.125em solid orange; }
 
 .box-content::before {
   content: " ";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  border: 10px solid transparent; }
+  border: 0.625em solid transparent; }
 
 .box-bottom .box-content {
   top: 65%; }
   .box-bottom .box-content::before {
     border-bottom-color: orange;
-    top: -20px; }
+    top: -1.25em; }
 
 .box-top .box-content {
   margin-top: 2em; }
   .box-top .box-content::before {
     border-top-color: orange;
-    bottom: -20px; }
+    bottom: -1.25em; }
 
 .skill-skillz {
   background: #775f635b;

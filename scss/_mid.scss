@@ -6,12 +6,12 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    height: 300px;
+    height: 18.75em;
   
       .middle-line {
         position: absolute;
         width: 100%;
-        height: 5px;
+        height: 0.3125em;
         top: 50%;
         transform: translateY(-50%);
         background: $border-color;
@@ -21,19 +21,19 @@
     .box {
       width: 21%;
       position: relative;
-      min-height: 300px;
+      min-height: 18.75em;
       float: right;
   
       .date {
         position: absolute;
         top: 50%;
-        left: 0px;
+        left: 0;
         transform: translateY(-50%);
-        width: 50px;
-        height: 50px;
+        width: 3.125em;
+        height: 3.125em;
         border-radius: 100%;
         background: $titles-color;
-        border: 2px solid $border-color ;
+        border: 0.125em solid $border-color ;
       }
   
       .date p {
@@ -42,13 +42,13 @@
       }
   
       .box-content {
-        border-radius: 5px;
+        border-radius: 0.3125em;
         background-color: $buble-b-color;
-        width: 180px;
+        width: 11.25em;
         position: absolute;
-        left: -77px;
-        padding: 15px;
-        border: 2px solid $border-color;
+        left: -4.8125em;
+        padding: 0.9375em;
+        border: 0.125em solid $border-color;
       }
     }
   
@@ -57,7 +57,7 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      border: 10px solid transparent; 
+      border: 0.625em solid transparent; 
     }
   
     .box-bottom .box-content {
@@ -65,7 +65,7 @@
       
       &::before {
         border-bottom-color: $border-color;
-        top: -20px;
+        top: -1.25em;
       }
     }
   
@@ -74,6 +74,6 @@
   
       &::before {
         border-top-color: $border-color;
-        bottom: -20px;
+        bottom: -1.25em;
       }
     }
