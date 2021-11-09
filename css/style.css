@@ -1,6 +1,6 @@
 body {
-  color: darkcyan;
-  background: #c2c2c14f;
+  color: #494242;
+  background: #2e8c8356;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.29em;
   letter-spacing: 0.03em;
@@ -15,7 +15,7 @@ h3 {
   margin: 0 auto; }
 
 .line {
-  color: green;
+  color: #148d6b;
   font-size: 1.45em;
   font-weight: bold;
   padding: 1em 0;
@@ -24,7 +24,7 @@ h3 {
   .line:after {
     content: "";
     flex: 1;
-    border-bottom: orange solid;
+    border-bottom: #175073 solid;
     margin: auto; }
 
 .circle {
@@ -33,7 +33,7 @@ h3 {
   height: 9.8em;
   margin-left: 1.78125em;
   border-radius: 50%;
-  border: orange solid; }
+  border: #175073 solid; }
   .circle img {
     width: 11.375em;
     height: 11.375em;
@@ -44,7 +44,7 @@ h3 {
   font-size: 3.5em;
   font-weight: bold;
   text-transform: uppercase;
-  color: green;
+  color: #148d6b;
   line-height: 0.825em;
   padding-top: 0.5em; }
 
@@ -59,8 +59,8 @@ h3 {
   color: rgba(0, 0, 0, 0.61); }
 
 .buble {
-  background-color: hotpink;
-  border: solid orange;
+  background-color: #D9525E;
+  border: solid #175073;
   border-radius: 0.75em 0.75em 0.75em 0;
   box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f;
   margin-top: 3.5em;
@@ -90,7 +90,7 @@ h3 {
     height: 0.3125em;
     top: 50%;
     transform: translateY(-50%);
-    background: orange; }
+    background: #175073; }
 
 .box {
   width: 21%;
@@ -105,19 +105,19 @@ h3 {
     width: 3.125em;
     height: 3.125em;
     border-radius: 100%;
-    background: green;
-    border: 0.125em solid orange; }
+    background: #148d6b;
+    border: 0.125em solid #175073; }
   .box .date p {
     color: white;
     margin-top: 0.95em; }
   .box .box-content {
     border-radius: 0.3125em;
-    background-color: hotpink;
+    background-color: #D9525E;
     width: 11.25em;
     position: absolute;
     left: -4.8125em;
     padding: 0.9375em;
-    border: 0.125em solid orange; }
+    border: 0.125em solid #175073; }
 
 .box-content::before {
   content: " ";
@@ -129,19 +129,19 @@ h3 {
 .box-bottom .box-content {
   top: 65%; }
   .box-bottom .box-content::before {
-    border-bottom-color: orange;
+    border-bottom-color: #175073;
     top: -1.25em; }
 
 .box-top .box-content {
   margin-top: 2em; }
   .box-top .box-content::before {
-    border-top-color: orange;
+    border-top-color: #175073;
     bottom: -1.25em; }
 
 .skill-skillz {
   background: #775f635b;
   border-radius: 999em;
-  border: 2px solid orange; }
+  border: 2px solid #175073; }
 
 .skill {
   text-align: right;
@@ -191,13 +191,13 @@ h3 {
   margin: 0.8em 0; }
   .contact a {
     text-decoration: none;
-    color: green;
+    color: #148d6b;
     font-size: 2em;
     font-weight: bolder;
     line-height: 1.25em; }
   .contact a:hover,
   .contact a:active {
-    color: #00e600; }
+    color: #27e0ac; }
 
 #top-grid {
   display: grid;
