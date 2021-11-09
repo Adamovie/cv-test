@@ -59,21 +59,25 @@
 
   //CERTIFICATION
   .certification{
-    a{
-      text-decoration: none;
- 
-    }
-
     img{
       width:  10em; 
       height: 14em;
-
-      padding-top: 1em;
-
-      opacity: 0.65;
     }
 
+    .opa{
+      padding-top: 1em;
+      display: inline-block;
+    }
+
+    .opa:hover{
+      opacity: 0.5;
+      transition: 0.5s;
+    }
+      
   }
+ 
+
+
 
   //CONTACT
 
@@ -92,6 +96,8 @@
 
     & a:hover,
       a:active{
-      color: lighten( $titles-color ,$amount: 20%)
+      color: lighten( $titles-color ,$amount: 15%);
+      font-size: 2.2em;
       }
+
 }

@@ -1,12 +1,11 @@
-@import "variables.scss";  //premenné 
+@import "variables.scss";   //premenné 
 
-@import "global.scss";     //všeobecné  
-
-
-@import "top.scss";        //vrchná časť
-@import "mid.scss";        //stredná časť
-@import "bot.scss";        //spodná časť
+@import "global.scss";      //všeobecné  
 
 
+@import "top.scss";          //vrchná časť
+@import "mid.scss";         //stredná časť
+@import "bot.scss";         //spodná časť
 
-@import "grid.scss";       //rozloženie
+
+@import "grid.scss";        //rozloženie

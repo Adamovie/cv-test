@@ -15,7 +15,7 @@ h3 {
   margin: 0 auto; }
 
 .line {
-  color: #148d6b;
+  color: #117256;
   font-size: 1.45em;
   font-weight: bold;
   padding: 1em 0;
@@ -44,7 +44,7 @@ h3 {
   font-size: 3.5em;
   font-weight: bold;
   text-transform: uppercase;
-  color: #148d6b;
+  color: #117256;
   line-height: 0.825em;
   padding-top: 0.5em; }
 
@@ -105,7 +105,7 @@ h3 {
     width: 3.125em;
     height: 3.125em;
     border-radius: 100%;
-    background: #148d6b;
+    background: #117256;
     border: 0.125em solid #175073; }
   .box .date p {
     color: white;
@@ -177,13 +177,15 @@ h3 {
 .interest img {
   width: 4.5em; }
 
-.certification a {
-  text-decoration: none; }
 .certification img {
   width: 10em;
-  height: 14em;
+  height: 14em; }
+.certification .opa {
   padding-top: 1em;
-  opacity: 0.65; }
+  display: inline-block; }
+.certification .opa:hover {
+  opacity: 0.5;
+  transition: 0.5s; }
 
 .contact {
   text-align: left;
@@ -191,13 +193,14 @@ h3 {
   margin: 0.8em 0; }
   .contact a {
     text-decoration: none;
-    color: #148d6b;
+    color: #117256;
     font-size: 2em;
     font-weight: bolder;
     line-height: 1.25em; }
   .contact a:hover,
   .contact a:active {
-    color: #27e0ac; }
+    color: #1bb588;
+    font-size: 2.2em; }
 
 #top-grid {
   display: grid;
