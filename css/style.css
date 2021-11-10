@@ -153,7 +153,6 @@ h3 {
     #skills li .bar {
       position: absolute;
       left: 0;
-      height: 5px;
       content: "";
       padding: 1em 0.2em; }
     #skills li .bar-cont {
@@ -162,17 +161,21 @@ h3 {
       background-color: #333;
       text-align: right;
       border-radius: 34px;
-      border: solid 2px #175073; }
+      border: solid 2px #175073;
+      z-index: 20; }
       #skills li .bar-cont .bar {
         top: 0;
         display: inline-block;
-        border-radius: 34px; }
+        border-radius: 34px;
+        z-index: 10; }
       #skills li .bar-cont .pct {
         position: absolute;
         top: -22px;
         right: 0;
         opacity: 0;
-        transition: opacity 0.3s linear; }
+        transition: opacity 0.3s linear;
+        font-weight: 600;
+        font-size: 1.15em; }
 
 .interest h3 {
   margin: 0.8em 0; }
@@ -215,7 +218,7 @@ h3 {
   z-index: 20; }
   #overlay img {
     margin-top: 2%;
-    max-width: 43.75em;
+    max-width: 45%;
     height: auto; }
 
 #top-grid {

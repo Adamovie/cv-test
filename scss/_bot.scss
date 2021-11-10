@@ -21,11 +21,8 @@
       .bar-cont,
       .bar {  
         position: absolute;
-        left: 0;
-        height: 5px;  
-
+        left: 0; 
         content: "";
-
         padding: 1em 0.2em;
       }
   
@@ -36,12 +33,14 @@
         text-align: right;
         border-radius: 34px;
         border: solid 2px $border-color;
+        z-index: 20;
 
 
         .bar {
           top: 0;
           display: inline-block;
           border-radius: 34px;
+          z-index: 10;
         }
   
         .pct {
@@ -50,10 +49,14 @@
           right: 0;
           opacity: 0;
           transition: opacity 0.3s linear;
-          
+          font-weight: 600;
+          font-size: 1.15em;
         }
+
       }
-    }   
+
+    }  
+
   }
 
 
@@ -123,7 +126,7 @@
 
   img{
     margin-top: 2%;
-    max-width: 43.75em;
+    max-width: 45%;
     height: auto;
   }
 
