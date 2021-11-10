@@ -138,38 +138,41 @@ h3 {
     border-top-color: #175073;
     bottom: -1.25em; }
 
-.skill-skillz {
-  background: #775f635b;
-  border-radius: 999em;
-  border: 2px solid #175073; }
-
-.skill {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  border-radius: 999em;
-  padding-right: 5px; }
-
-.html {
-  width: 90%;
-  background-color: #4CAF50; }
-
-.css {
-  width: 80%;
-  background-color: #2196F3; }
-
-.sass {
-  width: 70%;
-  background-color: #808080; }
-
-.js {
-  width: 45%;
-  background-color: #F44336; }
-
-.Ps {
-  width: 60%;
-  background-color: #bada55; }
+#skills {
+  margin: 0 auto;
+  max-width: 960px; }
+  #skills h3 {
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1.8em; }
+  #skills li {
+    position: relative;
+    margin-bottom: 60px;
+    padding-left: 6px; }
+    #skills li .bar-cont,
+    #skills li .bar {
+      position: absolute;
+      left: 0;
+      height: 5px;
+      content: "";
+      padding: 1em 0.2em; }
+    #skills li .bar-cont {
+      bottom: -50px;
+      width: 100%;
+      background-color: #333;
+      text-align: right;
+      border-radius: 34px;
+      border: solid 2px #175073; }
+      #skills li .bar-cont .bar {
+        top: 0;
+        display: inline-block;
+        border-radius: 34px; }
+      #skills li .bar-cont .pct {
+        position: absolute;
+        top: -22px;
+        right: 0;
+        opacity: 0;
+        transition: opacity 0.3s linear; }
 
 .interest h3 {
   margin: 0.8em 0; }
