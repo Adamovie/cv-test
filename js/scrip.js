@@ -1,8 +1,10 @@
 (function($){
+////CERTIFICATION////
+
     var certification = $('.certification'),
     overlay= $ ('<div/>', { id:'overlay'});
     overlay.appendTo ('body').hide();
-/*on click*/ 
+
 certification.find('a').on('click', function(event) 
 {	
     var href= 	$(this).attr('href'),
@@ -13,7 +15,7 @@ certification.find('a').on('click', function(event)
              
         event.preventDefault();
 });
-/*overlay hide */
+
 overlay.on('click', function(){
     overlay.fadeOut(300);
 });
@@ -23,46 +25,40 @@ $(document).on('keyup', function(event){
 });
 
 
-//skill-set
-var $bars = $( ".bar" ),
-    methods = {init: function() {
+////SKILL-SET////
+
+    var $bars = $( ".bar" ),
+        methods = {init: function() {  
+        methods.bindEvents();  
+    },
     
-    // Bind events
-    methods.bindEvents();
-    
-  },
-    bindEvents: function() {
+        bindEvents: function() {
+        $bars.each( function() {
+            
+        var $bar = $( this ),
+            $pct = $bar.find( ".pct" ),
+            data = $bar.data( "bar" );
 
-    // Loop through each of the bars...
-    $bars.each( function() {
+        setTimeout( function() {
 
-      var $bar = $( this ),
-        $pct = $bar.find( ".pct" ),
-        data = $bar.data( "bar" );
+            $bar
+            .css( "background-color", data.color )
+            .animate({
+                "width": $pct.html()
+            },
 
-      setTimeout( function() {
+            data.speed || 3000, function() {
+                $pct.css({
+                "color": data.color,
+                "opacity": 1
+                });
 
-        $bar
-          .css( "background-color", data.color )
-          .animate({
-            "width": $pct.html()
-          }, data.speed || 3000, function() {
-
-            $pct.css({
-              "color": data.color,
-              "opacity": 1
             });
 
-          });
+        }, data.delay || 0 );     
 
-      }, data.delay || 0 );     
+        });
+    }};
+    methods.init(); 
 
-    });
-
-  }
-};
-
-// Initialize on page load
-methods.init(); 
-    
-    })(jQuery);
+})(jQuery);
