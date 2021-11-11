@@ -11,7 +11,7 @@ h3 {
   margin: 0.8em 0; }
 
 .container {
-  max-width: 73.125em;
+  max-width: 70%;
   margin: 0 auto; }
 
 .line {
@@ -215,8 +215,10 @@ h3 {
     line-height: 1.25em; }
   .contact a:hover,
   .contact a:active {
-    color: #1bb588;
-    font-size: 2.2em; }
+    color: #ffffffd2;
+    background-color: #D9525E;
+    padding: 0.1em 0.5em;
+    border-radius: 1em; }
 
 #top-grid {
   display: grid;
@@ -254,8 +256,8 @@ h3 {
 #bot-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 1.5em; }
+  column-gap: 1em;
+  padding-bottom: 2em; }
 
 .skill-set {
   grid-area: 1 / 1 / 3 / 2; }
@@ -273,5 +275,28 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr); }
+
+@media (max-width: 93.75em) {
+  #bot-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.5em; }
+
+  .skill-set {
+    grid-area: 1 / 1 / 2 / 3; }
+
+  .interest-set {
+    grid-area: 2 / 1 / 3 / 2; }
+
+  .certification-set {
+    grid-area: 2 / 2 / 3 / 3; }
+
+  .contact-set {
+    grid-area: 3 / 1 / 4 / 3; }
+
+  #overlay img {
+    max-width: 42%; }
+
+  .contact a {
+    font-size: 3em; } }
 
 /*# sourceMappingURL=style.css.map */
