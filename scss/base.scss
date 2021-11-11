@@ -1,6 +1,7 @@
-@import "variables.scss";   //premenné 
+@import "variables.scss";       //premenné 
 
-@import "global.scss";      //všeobecné  
+
+@import "global.scss";          //všeobecné  
 
 
 @import "top-inicials.scss";    //vrchná časť 
@@ -8,16 +9,13 @@
 @import "top-abilities";        //vrchná časť
 
 
-
-@import "mid-timeline.scss";         //stredná časť
-
+@import "mid-timeline.scss";    //stredná časť
 
 
+@import "bot-skills";           //spodná časť
+@import "bot-interest";         //spodná časť
+@import "bot-certification";    //spodná časť
+@import "bot-contact";          //spodná časť
 
 
-
-
-@import "bot.scss";         //spodná časť
-
-
-@import "grid.scss";        //rozloženie
+@import "grid.scss";            //rozloženie

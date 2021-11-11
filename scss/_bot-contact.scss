@@ -1,0 +1,22 @@
+  //CONTACT
+
+  .contact{
+    text-align: left;
+    padding-left: 10%;
+    margin: 0.8em 0;
+
+    a{
+      text-decoration: none;
+      color:$titles-color;
+      font-size: 2em;
+      font-weight: bolder;
+      line-height: 1.25em;
+    }
+
+    & a:hover,
+      a:active{
+      color: lighten( $titles-color ,$amount: 15%);
+      font-size: 2.2em;
+    }
+
+}
