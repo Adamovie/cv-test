@@ -1,277 +1,63 @@
-body {
-  color: #494242;
-  background: #2e8c8356;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.29em;
-  letter-spacing: 0.03em;
-  -webkit-font-smoothing: antialiased;
-  text-align: center; }
+/*
+Error: File to import not found or unreadable: top.scss.
+        on line 6 of scss/base.scss
 
-h3 {
-  margin: 0.8em 0; }
+1: @import "variables.scss";   //premenné 
+2: 
+3: @import "global.scss";      //všeobecné  
+4: 
+5: 
+6: @import "top.scss";          //vrchná časť
+7: @import "inicials.scss";
+8: @import "buble.scss";
+9: @import "abilities";
+10: 
+11: 
 
-.container {
-  max-width: 73.125em;
-  margin: 0 auto; }
-
-.line {
-  color: #117256;
-  font-size: 1.45em;
-  font-weight: bold;
-  padding: 1em 0;
-  display: flex;
-  flex-direction: row; }
-  .line:after {
-    content: "";
-    flex: 1;
-    border-bottom: #175073 solid;
-    margin: auto; }
-
-.circle {
-  background-color: #65caff;
-  width: 11.3em;
-  height: 9.8em;
-  margin-left: 1.78125em;
-  border-radius: 50%;
-  border: #175073 solid; }
-  .circle img {
-    width: 11.375em;
-    height: 11.375em;
-    position: relative;
-    top: -38%; }
-
-.name {
-  font-size: 3.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #117256;
-  line-height: 0.825em;
-  padding-top: 0.5em; }
-
-.dat {
-  padding-top: 0.5em;
-  color: rgba(0, 0, 0, 0.61);
-  font-size: 1em;
-  font-weight: 800; }
-
-.code {
-  padding-top: 0.85em;
-  color: rgba(0, 0, 0, 0.61); }
-
-.buble {
-  background-color: #D9525E;
-  border: solid #175073;
-  border-radius: 0.75em 0.75em 0.75em 0;
-  box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f;
-  margin-top: 3.5em;
-  padding: 0.8em;
-  padding-top: 0;
-  text-align: left; }
-  .buble h3 {
-    font-size: 1.2em;
-    padding-bottom: 0.2em; }
-
-.icons img {
-  width: 8em;
-  height: 8em; }
-
-.icones li:first-child,
-.icones li:last-child {
-  padding-top: 2.8em; }
-
-.timeline-wrapper {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  height: 18.75em; }
-  .timeline-wrapper .middle-line {
-    position: absolute;
-    width: 100%;
-    height: 0.3125em;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #175073; }
-
-.box {
-  width: 21%;
-  position: relative;
-  min-height: 18.75em;
-  float: right; }
-  .box .date {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 3.125em;
-    height: 3.125em;
-    border-radius: 100%;
-    background: #117256;
-    border: 0.125em solid #175073; }
-  .box .date p {
-    color: white;
-    margin-top: 0.95em; }
-  .box .box-content {
-    border-radius: 0.3125em;
-    background-color: #D9525E;
-    width: 11.25em;
-    position: absolute;
-    left: -4.8125em;
-    padding: 0.9375em;
-    border: 0.125em solid #175073; }
-
-.box-content::before {
-  content: " ";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 0.625em solid transparent; }
-
-.box-bottom .box-content {
-  top: 65%; }
-  .box-bottom .box-content::before {
-    border-bottom-color: #175073;
-    top: -1.25em; }
-
-.box-top .box-content {
-  margin-top: 2em; }
-  .box-top .box-content::before {
-    border-top-color: #175073;
-    bottom: -1.25em; }
-
-#skills {
-  margin: 0 auto;
-  max-width: 60em; }
-  #skills h3 {
-    text-align: left;
-    padding-left: 1em;
-    font-size: 1.8em; }
-  #skills li {
-    position: relative;
-    margin-bottom: 3.75em;
-    padding-left: .375em; }
-    #skills li .bar-cont,
-    #skills li .bar {
-      position: absolute;
-      left: 0;
-      content: "";
-      padding: 1em .2em;
-      border-radius: 2.125em; }
-    #skills li .bar-cont {
-      bottom: -3.125em;
-      width: 100%;
-      background-color: #333;
-      text-align: right;
-      border: solid 0.125em #175073; }
-      #skills li .bar-cont .bar {
-        top: 0;
-        display: inline-block; }
-      #skills li .bar-cont .pct {
-        position: absolute;
-        top: -1.375em;
-        right: 0;
-        opacity: 0;
-        transition: opacity 0.3s linear;
-        font-weight: 600;
-        font-size: 1.15em; }
-
-.interest h3 {
-  margin: 0.8em 0; }
-
-.interest img {
-  width: 4.5em; }
-
-.certification img {
-  width: 10em;
-  height: 14em; }
-.certification .opa {
-  padding-top: 1em;
-  display: inline-block; }
-.certification .opa:hover {
-  opacity: 0.5;
-  transition: 0.5s; }
-
-#overlay {
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 20; }
-  #overlay img {
-    margin-top: 2%;
-    max-width: 33%;
-    height: auto; }
-
-.contact {
-  text-align: left;
-  padding-left: 10%;
-  margin: 0.8em 0; }
-  .contact a {
-    text-decoration: none;
-    color: #117256;
-    font-size: 2em;
-    font-weight: bolder;
-    line-height: 1.25em; }
-  .contact a:hover,
-  .contact a:active {
-    color: #1bb588;
-    font-size: 2.2em; }
-
-#top-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
-  grid-template-rows: repeat(1, 2fr);
-  align-items: center; }
-  #top-grid .grid-initials {
-    grid-area: 1 / 1 / 3 / 2; }
-  #top-grid .buble {
-    grid-area: 1 / 2 / 2 / 3; }
-  #top-grid .set-icones {
-    grid-area: 2 / 2 / 3 / 3; }
-
-.set-icones ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
-  grid-gap: 1em; }
-  .set-icones ul .hi {
-    grid-area: 1 / 1 / 2 / 2; }
-  .set-icones ul .clean {
-    grid-area: 1 / 2 / 2 / 3; }
-  .set-icones ul .motivation {
-    grid-area: 1 / 3 / 2 / 4; }
-  .set-icones ul .humor {
-    grid-area: 1 / 4 / 2 / 5; }
-  .set-icones ul .ae {
-    grid-area: 2 / 1 / 3 / 2; }
-  .set-icones ul .af {
-    grid-area: 2 / 2 / 3 / 3; }
-  .set-icones ul .ag {
-    grid-area: 2 / 3 / 3 / 4; }
-  .set-icones ul .bye {
-    grid-area: 2 / 4 / 3 / 5; }
-
-#bot-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 1.5em; }
-
-.skill-set {
-  grid-area: 1 / 1 / 3 / 2; }
-
-.interest-set {
-  grid-area: 1 / 2 / 2 / 3; }
-
-.certification-set {
-  grid-area: 1 / 3 / 2 / 4; }
-
-.contact-set {
-  grid-area: 2 / 2 / 3 / 4; }
-
-.interest {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr); }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/base.scss:6
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: top.scss.\A         on line 6 of scss/base.scss\A \A 1: @import \"variables.scss\";   //premenné \A 2: \A 3: @import \"global.scss\";      //všeobecné  \A 4: \A 5: \A 6: @import \"top.scss\";          //vrchná časť\A 7: @import \"inicials.scss\";\A 8: @import \"buble.scss\";\A 9: @import \"abilities\";\A 10: \A 11: "; }
