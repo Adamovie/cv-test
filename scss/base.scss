@@ -3,14 +3,20 @@
 @import "global.scss";      //všeobecné  
 
 
-@import "top.scss";          //vrchná časť
-@import "inicials.scss";
-@import "buble.scss";
-@import "abilities";
+@import "top-inicials.scss";    //vrchná časť 
+@import "top-buble.scss";       //vrchná časť
+@import "top-abilities";        //vrchná časť
 
 
 
 @import "mid.scss";         //stredná časť
+
+
+
+
+
+
+
 @import "bot.scss";         //spodná časť
 
 
