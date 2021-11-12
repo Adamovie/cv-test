@@ -37,6 +37,7 @@ p {
   background-color: #65caff;
   width: 11.3em;
   height: 9.8em;
+  margin-left: 1.7em;
   border-radius: 50%;
   border: #175073 solid; }
   .circle img {
@@ -222,7 +223,7 @@ p {
   .contact a:active {
     color: #ffffffd2;
     background-color: #D9525E;
-    padding: 0.1em 0.5em;
+    padding: 0.02em 0.5em;
     border-radius: 1em; }
 
 #top-grid {
