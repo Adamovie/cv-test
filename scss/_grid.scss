@@ -14,16 +14,15 @@
     
       .set-icones ul{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
         grid-gap: 1em;
         
           .hi         { grid-area: 1 / 1 / 2 / 2; }
-          .clean      { grid-area: 1 / 2 / 2 / 3; }
+          .frendly    { grid-area: 1 / 2 / 2 / 3; }
           .motivation { grid-area: 1 / 3 / 2 / 4; }
-          .humor      { grid-area: 1 / 4 / 2 / 5; }
-          .ae         { grid-area: 2 / 1 / 3 / 2; }
-          .af         { grid-area: 2 / 2 / 3 / 3; }
-          .ag         { grid-area: 2 / 3 / 3 / 4; }
+          .joke       { grid-area: 1 / 4 / 2 / 5; }
+          .drive      { grid-area: 2 / 1 / 3 / 2; }
+          .flegma     { grid-area: 2 / 2 / 3 / 3; }
+          .creative   { grid-area: 2 / 3 / 3 / 4; }
           .bye        { grid-area: 2 / 4 / 3 / 5; }
       }
   
