@@ -8,16 +8,22 @@ body {
   text-align: center; }
 
 h3 {
-  margin: 0.8em 0; }
+  margin: 0.8em 0;
+  font-size: 1.2em;
+  font-weight: 600; }
+
+p {
+  font-size: 1.2em;
+  font-weight: 300; }
 
 .container {
-  max-width: 60%;
+  max-width: 55%;
   margin: 0 auto; }
 
 .line {
   color: #117256;
-  font-size: 1.45em;
-  font-weight: bold;
+  font-size: 1.8em;
+  font-weight: 800;
   padding: 1em 0;
   display: flex;
   flex-direction: row; }
@@ -41,7 +47,7 @@ h3 {
 
 .name {
   font-size: 3.5em;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   color: #117256;
   line-height: 0.825em;
@@ -50,7 +56,7 @@ h3 {
 .dat {
   padding-top: 0.5em;
   color: rgba(0, 0, 0, 0.61);
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 800; }
 
 .code {
@@ -67,7 +73,7 @@ h3 {
   padding-top: 0;
   text-align: left; }
   .buble h3 {
-    font-size: 1.2em;
+    font-size: 0, 8em;
     padding-bottom: 0.2em; }
 
 .icons img {
@@ -171,7 +177,7 @@ h3 {
         opacity: 0;
         transition: opacity 0.3s linear;
         font-weight: 600;
-        font-size: 1.15em; }
+        font-size: 1.2em; }
 
 .interest h3 {
   margin: 0.8em 0; }
@@ -209,8 +215,8 @@ h3 {
   .contact a {
     text-decoration: none;
     color: #117256;
-    font-size: 2em;
-    font-weight: bolder;
+    font-size: 1.8em;
+    font-weight: 800;
     line-height: 1.25em; }
   .contact a:hover,
   .contact a:active {
@@ -294,8 +300,8 @@ h3 {
   #overlay img {
     max-width: 42%; }
 
-  .contact a {
-    font-size: 3em; }
+  .container {
+    max-width: 85%; }
 
   #top-grid .grid-initials {
     grid-area: 1 / 1 / 2 / 2; }

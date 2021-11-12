@@ -7,24 +7,31 @@ body{
     line-height: 1.29em;
     letter-spacing: 0.03em;
 
+
     -webkit-font-smoothing: antialiased;
     text-align: center;
   }
 
   h3{
     margin: 0.8em 0;
+    font-size: $small-size;
+    font-weight: $medium-weight;
+  }
+
+  p{
+    font-size: $small-size;
+    font-weight: $small-weight;
   }
 
   .container{
-    max-width: 60%;
+    max-width: 55%;
     margin:  0 auto;
-
   }
 
   .line{
     color: $titles-color;
-    font-size: 1.45em;
-    font-weight: bold;
+    font-size: $big-size;
+    font-weight: $big-weight;
     padding: 1em 0;
     display: flex;
     flex-direction: row;

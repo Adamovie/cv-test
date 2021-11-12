@@ -1,7 +1,7 @@
  //Initials
  
  .circle{
-    background-color: rgb(101, 202, 255);
+    background-color: $circle-color;
 
     width: 11.3em;
     height: 9.8em; 
@@ -19,8 +19,8 @@
   }
 
   .name{
-    font-size: 3.5em;
-    font-weight: bold;
+    font-size: $bigest-size;
+    font-weight: $big-weight;
     text-transform: uppercase;
     color: $titles-color;
     line-height: 0.825em;
@@ -30,8 +30,8 @@
   .dat{
     padding-top: 0.5em;
     color: rgba(0, 0, 0, 0.61);
-    font-size: 1em;
-    font-weight: 800;
+    font-size: $small-size;
+    font-weight: $big-weight;
   }
 
   .code{
