@@ -206,8 +206,8 @@ p {
   z-index: 20; }
   #overlay img {
     margin-top: 2%;
-    width: auto;
-    height: 80%; }
+    max-width: 33%;
+    height: auto; }
 
 .contact {
   text-align: left;
@@ -309,6 +309,9 @@ p {
 
   body {
     background-color: yellow; }
+
+  #overlay img {
+    margin-top: 10%; }
 
   #overlay img {
     max-width: 42%; }
