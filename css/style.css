@@ -349,7 +349,11 @@ p {
     grid-area: 3 / 1 / 4 / 4; }
 
   .contact-set {
-    grid-area: 4 / 1 / 5 / 4; } }
+    grid-area: 4 / 1 / 5 / 4; }
+
+  #overlay img {
+    margin-top: 25%;
+    max-width: 75%; } }
 @media (max-width: 51.25em) {
   .container {
     max-width: 90%; }
@@ -373,6 +377,9 @@ p {
     margin-top: 3em; }
 
   .box-top-r .box-content {
-    margin-top: 4.25em; } }
+    margin-top: 4.25em; }
+
+  .contact a {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
