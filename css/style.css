@@ -321,8 +321,8 @@ p {
     margin: 2em 10%; }
 
   #overlay img {
-    margin-top: 10%;
-    max-width: 42%; } }
+    margin-top: 2%;
+    max-width: 35%; } }
 @media (max-width: 78.125em) {
   #bot-grid {
     display: grid;
@@ -341,8 +341,8 @@ p {
     grid-area: 4 / 1 / 5 / 4; }
 
   #overlay img {
-    margin-top: 25%;
-    max-width: 75%; } }
+    margin-top: 4%;
+    max-width: 50%; } }
 @media (max-width: 51.25em) {
   .container {
     max-width: 90%; }
@@ -366,9 +366,17 @@ p {
     margin-top: 4.25em; }
 
   .contact a {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  #overlay img {
+    margin-top: 8%;
+    max-width: 80%; } }
 @media (max-width: 34.375em) {
   .circle {
-    margin-left: 31%; } }
+    margin-left: 31%; }
+
+  #overlay img {
+    margin-top: 30%;
+    max-width: 86%; } }
 
 /*# sourceMappingURL=style.css.map */
