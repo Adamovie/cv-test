@@ -36,10 +36,11 @@
         max-width: 80%;
         margin: 2em 10%;
     }
-    
-    #overlay img {
-        margin-top: 2%;
-        max-width: 35%;
+    #bot-grid{
+        #overlay img {
+            margin-top: 2%;
+            max-width: 35%;
+        }
     }
 }
 
@@ -99,9 +100,12 @@
           font-size: $small-size;
         }
     }
-    #overlay img {
-        margin-top: 8%;
-        max-width: 80%;
+
+    #bot-grid{
+        #overlay img {
+            margin-top: 8%;
+            max-width: 80%;
+        }
     }
 }
 @media (max-width: 34.375em){
@@ -117,10 +121,10 @@
 
 
 
-@media (max-width: 28.125em){
+@media (max-width: 30em){
 
     #overlay img {
-        margin-top: 30%;
+        margin-top: 20%;
         max-width: 80%;
     }
 }
