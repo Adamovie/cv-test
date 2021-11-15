@@ -15,7 +15,7 @@
         background: $border-color;
       }
     }
-  
+
     .box {
       width: 21%;
       position: relative;
@@ -36,7 +36,7 @@
   
       .date p {
         color: white;
-        margin-top: 0.95em;
+        margin-top: 0.85em;
       }
   
       .box-content {
@@ -49,7 +49,7 @@
         border: 0.125em solid $border-color;
       }
     }
-  
+    
     .box-content::before {
       content: " ";
       position: absolute;
@@ -75,3 +75,4 @@
         bottom: -1.25em;
       }
     }
+

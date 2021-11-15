@@ -115,7 +115,7 @@ p {
     border: 0.125em solid #175073; }
   .box .date p {
     color: white;
-    margin-top: 0.95em; }
+    margin-top: 0.85em; }
   .box .box-content {
     border-radius: 0.3125em;
     background-color: #D9525E;
@@ -285,9 +285,6 @@ p {
   .container {
     max-width: 70%; }
 
-  body {
-    background-color: orange; }
-
   #bot-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1.5em; }
@@ -307,15 +304,6 @@ p {
   .container {
     max-width: 80%; }
 
-  body {
-    background-color: yellow; }
-
-  #overlay img {
-    margin-top: 10%; }
-
-  #overlay img {
-    max-width: 42%; }
-
   #top-grid .grid-initials {
     grid-area: 1 / 1 / 2 / 2; }
   #top-grid .buble {
@@ -330,11 +318,12 @@ p {
   .buble {
     border-radius: 1em;
     max-width: 80%;
-    margin: 2em 10%; } }
-@media (max-width: 78.125em) {
-  body {
-    background-color: darkred; }
+    margin: 2em 10%; }
 
+  #overlay img {
+    margin-top: 10%;
+    max-width: 42%; } }
+@media (max-width: 78.125em) {
   #bot-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
@@ -358,11 +347,8 @@ p {
   .container {
     max-width: 90%; }
 
-  body {
-    background-color: pink; }
-
   .circle {
-    margin-left: 28%; }
+    margin-left: 36%; }
 
   .icones li:first-child,
   .icones li:last-child {
@@ -380,6 +366,9 @@ p {
     margin-top: 4.25em; }
 
   .contact a {
-    font-size: 1.5em; } }
+    font-size: 1.2em; } }
+@media (max-width: 34.375em) {
+  .circle {
+    margin-left: 31%; } }
 
 /*# sourceMappingURL=style.css.map */
