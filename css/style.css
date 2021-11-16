@@ -320,7 +320,7 @@ p {
     max-width: 80%;
     margin: 2em 10%; }
 
-  #overlay img {
+  #bot-grid #overlay img {
     margin-top: 2%;
     max-width: 35%; } }
 @media (max-width: 78.125em) {
@@ -368,15 +368,53 @@ p {
   .contact a {
     font-size: 1.2em; }
 
-  #overlay img {
+  #bot-grid #overlay img {
     margin-top: 8%;
     max-width: 80%; } }
 @media (max-width: 34.375em) {
+  .MID {
+    display: none; }
+
+  .container {
+    max-width: 95%; }
+
   .circle {
-    margin-left: 31%; }
+    margin-left: 27%; }
 
   #overlay img {
     margin-top: 30%;
-    max-width: 86%; } }
+    max-width: 86%; }
+
+  .contact a {
+    font-size: 0, 8em; }
+
+  .set-icones ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+    .set-icones ul .frendly {
+      grid-area: 1 / 1 / 2 / 2; }
+    .set-icones ul .motivation {
+      grid-area: 1 / 2 / 2 / 3; }
+    .set-icones ul .joke {
+      grid-area: 2 / 1 / 3 / 2; }
+    .set-icones ul .drive {
+      grid-area: 2 / 2 / 3 / 3; }
+    .set-icones ul .flegma {
+      grid-area: 3 / 1 / 4 / 2; }
+    .set-icones ul .creative {
+      grid-area: 3 / 2 / 4 / 3; }
+
+  #skills li .bar-cont {
+    width: 98%; }
+
+  .contact i {
+    display: none; } }
+@media (max-width: 30em) {
+  #overlay img {
+    margin-top: 20%;
+    max-width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
