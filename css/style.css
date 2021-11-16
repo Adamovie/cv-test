@@ -37,6 +37,7 @@ p {
   background-color: #65caff;
   width: 11.3em;
   height: 9.8em;
+  margin: 0 auto;
   margin-left: 1.7em;
   border-radius: 50%;
   border: #175073 solid; }
@@ -366,9 +367,6 @@ p {
     margin-top: 8%;
     max-width: 80%; } }
 @media (max-width: 34.375em) {
-  .MID {
-    display: none; }
-
   .container {
     max-width: 95%; }
 
