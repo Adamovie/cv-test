@@ -144,41 +144,35 @@ p {
     border-top-color: #175073;
     bottom: -1.25em; }
 
-#skills {
+.skill-set h3 {
+  text-align: left;
+  margin-left: 3em; }
+
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 0.9375em;
+  width: 95%;
   margin: 0 auto;
-  max-width: 60em; }
-  #skills h3 {
-    text-align: left;
-    padding-left: 1em;
-    font-size: 1.2em; }
-  #skills li {
-    position: relative;
-    margin-bottom: 3.75em;
-    padding-left: .375em; }
-    #skills li .bar-cont,
-    #skills li .bar {
-      position: absolute;
-      left: 0;
-      content: "";
-      padding: 1em .2em;
-      border-radius: 2.125em; }
-    #skills li .bar-cont {
-      bottom: -3.125em;
-      width: 100%;
-      background-color: #333;
-      text-align: right;
-      border: solid 0.125em #175073; }
-      #skills li .bar-cont .bar {
-        top: 0;
-        display: inline-block; }
-      #skills li .bar-cont .pct {
-        position: absolute;
-        top: -1.375em;
-        right: 0;
-        opacity: 0;
-        transition: opacity 0.3s linear;
-        font-weight: 600;
-        font-size: 1.2em; }
+  background: #333;
+  height: 2.1875em;
+  border-radius: 1.875em;
+  border: solid #175073;
+  transition: 0.4s linear;
+  transition-property: width, background-color; }
+
+.skillbar-bar {
+  height: 2.1875em;
+  width: 0;
+  border-radius: 1.875em; }
+
+.skill-bar-percent {
+  position: absolute;
+  right: 0.625em;
+  top: 0;
+  font-size: 1.2em;
+  height: 2.1875em;
+  line-height: 1.8875em; }
 
 .interest h3 {
   margin: 0.8em 0; }
