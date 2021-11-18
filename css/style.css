@@ -396,7 +396,25 @@ p {
     width: 98%; }
 
   .contact i {
-    display: none; } }
+    display: none; }
+
+  .timeline-wrapper {
+    height: 19.75em; }
+    .timeline-wrapper .middle-line {
+      top: 52%; }
+
+  .box {
+    min-height: 19.75em; }
+    .box .box-content {
+      width: 8.55em;
+      left: -3.0125em;
+      padding: 0.4em; }
+    .box .date {
+      top: 52%; }
+    .box .box-top-r {
+      top: 13%;
+      left: -7%;
+      width: 61%; } }
 @media (max-width: 30em) {
   #overlay img {
     margin-top: 20%;

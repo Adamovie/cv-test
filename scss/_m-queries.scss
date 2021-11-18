@@ -143,6 +143,33 @@
         display: none;
     }
 
+    .timeline-wrapper {
+        height: 19.75em;
+       
+        .middle-line{
+            top:52%;
+        }
+    }
+
+    .box {
+        min-height: 19.75em;
+
+
+        .box-content {
+            width: 8.55em;
+            left: -3.0125em;
+            padding: 0.4em;
+        }
+        .date{
+            top:52%;
+        }
+        .box-top-r{
+            top: 13%;
+            left: -7%;
+            width: 61%;
+        }
+    }
+
 }   
 
 
