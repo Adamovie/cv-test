@@ -3,8 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: 1em;
- }
- .circle{
+  .circle{
     background-color: $circle-color;
 
     width: 11.3em;
@@ -21,6 +20,8 @@
       top: -38%;
     }
   }
+ }
+ 
 
   .name{
     font-size: $bigest-size;

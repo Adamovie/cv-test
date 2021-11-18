@@ -26,6 +26,7 @@ $(document).on('keyup', function(event){
 
 
 ////SKILL-SET////
+
    var offsetTop = $('#skills').offset().top;
     $(window).scroll(function() {
   var height = $(window).height();
