@@ -124,9 +124,11 @@ p {
     background-color: #D9525E;
     width: 11.25em;
     position: absolute;
-    left: -4.8125em;
+    left: -5em;
     padding: 0.9375em;
     border: 0.125em solid #175073; }
+  .box .box-top-r {
+    top: 7%; }
 
 .box-content::before {
   content: " ";
