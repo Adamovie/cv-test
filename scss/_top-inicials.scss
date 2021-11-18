@@ -2,7 +2,7 @@
  .avatar{
   display: flex;
   justify-content: center;
-  align-items: 1em;
+  align-items: center;
   .circle{
     background-color: $circle-color;
 
@@ -12,7 +12,7 @@
     border-radius: 50%;
     border: $border-color solid;
 
-    img{
+    img{ 
       width: 11.375em;
       height: 11.375em;
 
@@ -23,7 +23,7 @@
  }
  
 
-  .name{
+  .name{ 
     font-size: $bigest-size;
     font-weight: $big-weight;
     text-transform: uppercase;

@@ -36,7 +36,7 @@ p {
 .avatar {
   display: flex;
   justify-content: center;
-  align-items: 1em; }
+  align-items: center; }
   .avatar .circle {
     background-color: #65caff;
     width: 11.3em;
