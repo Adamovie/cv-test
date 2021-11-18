@@ -33,12 +33,15 @@ p {
     border-bottom: #175073 solid;
     margin: auto; }
 
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: 1em; }
+
 .circle {
   background-color: #65caff;
   width: 11.3em;
   height: 9.8em;
-  margin: 0 auto;
-  margin-left: 1.7em;
   border-radius: 50%;
   border: #175073 solid; }
   .circle img {
@@ -306,10 +309,6 @@ p {
   #top-grid .set-icones {
     grid-area: 3 / 1 / 4 / 2; }
 
-  .circle {
-    margin-left: 39%;
-    margin-top: 3em; }
-
   .buble {
     border-radius: 1em;
     max-width: 80%;
@@ -342,9 +341,6 @@ p {
   .container {
     max-width: 90%; }
 
-  .circle {
-    margin-left: 36%; }
-
   .icones li:first-child,
   .icones li:last-child {
     display: none; }
@@ -369,9 +365,6 @@ p {
 @media (max-width: 34.375em) {
   .container {
     max-width: 95%; }
-
-  .circle {
-    margin-left: 27%; }
 
   #overlay img {
     margin-top: 30%;
