@@ -1,11 +1,13 @@
 
 .skill-set{
   h3{
+    
     text-align: left;
     margin-left: 3em;
   }
 }
 .skillbar {
+
   position: relative;
   display: block;
   background: $bar-b-color;
@@ -22,6 +24,7 @@
 }
 
 .skillbar-bar {
+
   height: 2.1875em;
   width: 0;
 
@@ -29,6 +32,7 @@
 }
 
 .skill-bar-percent {
+  
   position:absolute;
   right: 0.625em;
   top: 0;

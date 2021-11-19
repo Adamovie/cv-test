@@ -68,14 +68,14 @@ p {
   color: rgba(0, 0, 0, 0.61); }
 
 .buble {
-  background-color: #D9525E;
-  border: solid #175073;
-  border-radius: 0.75em 0.75em 0.75em 0;
-  box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f;
+  text-align: left;
   margin-top: 3.5em;
   padding: 0.8em;
   padding-top: 0;
-  text-align: left; }
+  background-color: #D9525E;
+  border: solid #175073;
+  border-radius: 0.75em 0.75em 0.75em 0;
+  box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f; }
   .buble h3 {
     font-size: 0, 8em;
     padding-bottom: 0.2em; }
@@ -156,7 +156,7 @@ p {
 .skillbar {
   position: relative;
   display: block;
-  background: rgba(51, 51, 51, 0.753);
+  background: #333333c0;
   width: 95%;
   margin-bottom: 0.9375em;
   height: 2.1875em;

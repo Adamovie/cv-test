@@ -1,9 +1,12 @@
  //Initials
  .avatar{
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   .circle{
+
     background-color: $circle-color;
 
     width: 11.3em;
@@ -13,6 +16,7 @@
     border: $border-color solid;
 
     img{ 
+
       width: 11.375em;
       height: 11.375em;
 
@@ -24,22 +28,28 @@
  
 
   .name{ 
+
     font-size: $bigest-size;
     font-weight: $big-weight;
     text-transform: uppercase;
     color: $titles-color;
     line-height: 0.825em;
+
     padding-top: 0.5em;
   }
 
   .dat{
+
     padding-top: 0.5em;
+
     color: rgba(0, 0, 0, 0.61);
     font-size: $small-size;
     font-weight: $big-weight;
   }
 
   .code{
+
     padding-top: 0.85em;
+    
     color: rgba(0, 0, 0, 0.61) ;
   }

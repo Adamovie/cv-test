@@ -5,6 +5,7 @@
     .container{max-width: 70%;}
 
     #bot-grid {
+
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 1.5em;
         }
@@ -29,17 +30,21 @@
     }
 
     .avatar{
+
         margin-top: 3em;
     }
 
     .buble{
+
         border-radius: 1em;
         max-width: 80%;
         margin: 2em 10%;
     }
 
     #bot-grid{
+
         #overlay img {
+
             margin-top: 2%;
             max-width: 35%;
         }
@@ -51,6 +56,7 @@
 @media (max-width: 78.125em){
 
     #bot-grid {
+
         grid-template-columns: repeat(3, 1fr);
         }
     
@@ -60,6 +66,7 @@
         .contact-set        { grid-area: 4 / 1 / 5 / 4; }
 
         #overlay img {
+
             margin-top: 4%;
             max-width: 50%;
         }   
@@ -70,37 +77,44 @@
 @media (max-width: 51.25em){
 
     .container{
+
         max-width: 90%;
     }
 
     .icones li:first-child,
     .icones li:last-child{
+
         display:none;
     }
 
     .box .box-content {
+
         width: 9.55em;
         left: -3.6125em;
         padding: 0.3375em;
     }
 
     .box-top .box-content {
+
         margin-top: 3em;
     }
 
     .box-top-r .box-content {
+
         margin-top: 4.25em;
     }
 
     .contact{
 
         a{
+
           font-size: $small-size;
         }
     }
 
     #bot-grid{
         #overlay img {
+
             margin-top: 8%;
             max-width: 80%;
         }
@@ -112,6 +126,7 @@
 @media (max-width: 34.375em){
 
     .container{
+
         max-width: 95%;
     }
 
@@ -131,26 +146,32 @@
     }
 
     .timeline-wrapper {
+
         height: 19.75em;
        
         .middle-line{
+
             top:52%;
         }
 
         .box {
+
             min-height: 19.75em;
     
             .box-content {
+
                 width: 8.55em;
                 left: -3.0125em;
                 padding: 0.4em;
             }
 
             .date{
+
                 top:52%;
             }
 
             .box-top-r{
+
                 top: 13%;
                 left: -7%;
                 width: 61%;
@@ -159,13 +180,14 @@
     }
 
     #skills li .bar-cont {
+
         width: 98%;
     }
 
     .contact{
 
         a{
-          font-size: $smaller-size;
+            font-size: $smaller-size;
         }
 
         i{
@@ -174,6 +196,7 @@
     }
 
     #overlay img {
+        
         margin-top: 30%;
         max-width: 86%;
     }
@@ -185,7 +208,7 @@
 @media (max-width: 30em){
 
     #overlay img {
-        
+
         margin-top: 20%;
         max-width: 80%;
     }

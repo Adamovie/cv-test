@@ -12,7 +12,7 @@
     $buble-b-color: #D9525E;
     $shadow-color:  #635e5e2f;
 
-    $bar-b-color:   rgba(51, 51, 51, 0.753);
+    $bar-b-color:   #333333c0;
     $overlay-color: #00000080;
 
 
@@ -20,14 +20,17 @@
     $hover-t-color: #ffffffd2;
 
 
-    //Font
-    
+//Font
+
+    //size
+
     $smaller-size:0,8em;
     $small-size:1.2em;
     $normal-size:1.5em;
     $big-size:1.8em;
     $bigest-size:3.5em;
 
+    //weight
 
     $small-weight:300;
     $medium-weight:600;
