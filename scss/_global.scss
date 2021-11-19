@@ -1,9 +1,11 @@
 //GLOBAL
 
-body{ 
+  body{ 
     color: $text-color;
     background-color: $body-b-color;
+
     font-family: Roboto, Helvetica, Arial, sans-serif;
+
     line-height: 1.29em;
     letter-spacing: 0.03em;
 
@@ -14,6 +16,7 @@ body{
 
   h3{
     margin: 0.8em 0;
+
     font-size: $small-size;
     font-weight: $medium-weight;
   }
@@ -29,18 +32,24 @@ body{
   }
 
   .line{
+    display: flex;
+    flex-direction: row;
+
     color: $titles-color;
     font-size: $big-size;
     font-weight: $big-weight;
+
     padding: 1em 0;
-    display: flex;
-    flex-direction: row;
+
 
     &:after {
         content: "";
         flex: 1;
+        
         border-bottom:  $border-color solid;
+
         margin: auto;
+
       }
 
   }

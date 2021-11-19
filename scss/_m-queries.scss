@@ -1,4 +1,5 @@
 //QUERIES
+
 @media (max-width: 115.625em){ 
 
     .container{max-width: 70%;}
@@ -12,8 +13,9 @@
         .interest-set       { grid-area: 2 / 1 / 3 / 2;}
         .certification-set  { grid-area: 2 / 2 / 3 / 3;}
         .contact-set        { grid-area: 3 / 1 / 4 / 3;}
-
 }
+
+/////////////////////////////////////////////////////////////////////////////////
 
 @media (max-width: 106.25em){ 
 
@@ -25,6 +27,7 @@
         .buble          { grid-area: 2 / 1 / 3 / 2; }
         .set-icones     { grid-area: 3 / 1 / 4 / 2; }
     }
+
     .avatar{
         margin-top: 3em;
     }
@@ -34,6 +37,7 @@
         max-width: 80%;
         margin: 2em 10%;
     }
+
     #bot-grid{
         #overlay img {
             margin-top: 2%;
@@ -42,37 +46,37 @@
     }
 }
 
+/////////////////////////////////////////////////////////////////////////////////
+
 @media (max-width: 78.125em){
 
-#bot-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    }
+    #bot-grid {
+        grid-template-columns: repeat(3, 1fr);
+        }
     
-    .skill-set          { grid-area: 1 / 1 / 2 / 4; }
-    .interest-set       { grid-area: 2 / 1 / 3 / 4; }
-    .certification-set  { grid-area: 3 / 1 / 4 / 4; }
-    .contact-set        { grid-area: 4 / 1 / 5 / 4; }
+        .skill-set          { grid-area: 1 / 1 / 2 / 4; }
+        .interest-set       { grid-area: 2 / 1 / 3 / 4; }
+        .certification-set  { grid-area: 3 / 1 / 4 / 4; }
+        .contact-set        { grid-area: 4 / 1 / 5 / 4; }
 
-    #overlay img {
-        margin-top: 4%;
-        max-width: 50%;
+        #overlay img {
+            margin-top: 4%;
+            max-width: 50%;
+        }   
     }
-    
-}
+
+/////////////////////////////////////////////////////////////////////////////////
 
 @media (max-width: 51.25em){
+
     .container{
         max-width: 90%;
     }
-
-
 
     .icones li:first-child,
     .icones li:last-child{
         display:none;
     }
-
 
     .box .box-content {
         width: 9.55em;
@@ -103,24 +107,14 @@
     }
 }
 
+/////////////////////////////////////////////////////////////////////////////////
+
 @media (max-width: 34.375em){
-
-
 
     .container{
         max-width: 95%;
     }
 
-    #overlay img {
-        margin-top: 30%;
-        max-width: 86%;
-    }
-    .contact{
-
-        a{
-          font-size: $smaller-size;
-        }
-    }
     .set-icones ul{
 
         grid-template-columns: repeat(2, 1fr);
@@ -135,13 +129,6 @@
         .flegma { grid-area: 3 / 1 / 4 / 2; }
         .creative { grid-area: 3 / 2 / 4 / 3; }
     }
-    #skills li .bar-cont {
-        width: 98%;
-    }
-
-    .contact i{
-        display: none;
-    }
 
     .timeline-wrapper {
         height: 19.75em;
@@ -149,35 +136,56 @@
         .middle-line{
             top:52%;
         }
+
+        .box {
+            min-height: 19.75em;
+    
+            .box-content {
+                width: 8.55em;
+                left: -3.0125em;
+                padding: 0.4em;
+            }
+
+            .date{
+                top:52%;
+            }
+
+            .box-top-r{
+                top: 13%;
+                left: -7%;
+                width: 61%;
+            }
+        }
     }
 
-    .box {
-        min-height: 19.75em;
+    #skills li .bar-cont {
+        width: 98%;
+    }
 
+    .contact{
 
-        .box-content {
-            width: 8.55em;
-            left: -3.0125em;
-            padding: 0.4em;
+        a{
+          font-size: $smaller-size;
         }
-        .date{
-            top:52%;
+
+        i{
+             display: none;
         }
-        .box-top-r{
-            top: 13%;
-            left: -7%;
-            width: 61%;
-        }
+    }
+
+    #overlay img {
+        margin-top: 30%;
+        max-width: 86%;
     }
 
 }   
 
-
-
+/////////////////////////////////////////////////////////////////////////////////
 
 @media (max-width: 30em){
 
     #overlay img {
+        
         margin-top: 20%;
         max-width: 80%;
     }

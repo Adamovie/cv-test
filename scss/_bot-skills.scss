@@ -8,13 +8,15 @@
 .skillbar {
   position: relative;
   display: block;
-  margin-bottom: 0.9375em;
-  width: 95%;
-  margin: 0 auto;
   background: $bar-b-color;
+
+  width: 95%;
+  margin-bottom: 0.9375em;
   height: 2.1875em;
+
   border-radius: 1.875em;
   border: solid $border-color;
+
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -22,6 +24,7 @@
 .skillbar-bar {
   height: 2.1875em;
   width: 0;
+
   border-radius :1.875em;
 }
 
@@ -29,7 +32,8 @@
   position:absolute;
   right: 0.625em;
   top: 0;
-  font-size: $small-size;
   height: 2.1875em;
+  
+  font-size: $small-size;
   line-height: 1.8875em;
 }
