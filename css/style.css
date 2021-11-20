@@ -1,6 +1,6 @@
 body {
-  color: #2a2a2a;
-  background-color: #2e8c8356;
+  color: #154659;
+  background-color: #e3b765b0;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.29em;
   letter-spacing: 0.03em;
@@ -23,26 +23,27 @@ p {
 .line {
   display: flex;
   flex-direction: row;
-  color: #117256;
+  color: #3f69e1;
   font-size: 1.8em;
   font-weight: 800;
   padding: 1em 0; }
   .line:after {
     content: "";
     flex: 1;
-    border-bottom: #175073 solid;
-    margin: auto; }
+    border-bottom: #3d3a3aaf solid;
+    margin: auto;
+    margin-left: 0.2em; }
 
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center; }
   .avatar .circle {
-    background-color: #65caff;
+    background-color: #387234bf;
     width: 11.3em;
     height: 9.8em;
     border-radius: 50%;
-    border: #175073 solid; }
+    border: #3d3a3aaf solid; }
     .avatar .circle img {
       width: 11.375em;
       height: 11.375em;
@@ -53,27 +54,37 @@ p {
   font-size: 3.5em;
   font-weight: 800;
   text-transform: uppercase;
-  color: #117256;
+  color: #3f69e1;
   line-height: 0.825em;
   padding-top: 0.5em; }
+  .name h1 {
+    text-shadow: -0.05em 0.05em 0.3125em rgba(0, 0, 0, 0.1843137255); }
 
 .dat {
   padding-top: 0.5em;
-  color: rgba(0, 0, 0, 0.61);
+  color: #0000009c;
   font-size: 1.2em;
   font-weight: 800; }
 
 .code {
   padding-top: 0.85em;
-  color: rgba(0, 0, 0, 0.61); }
+  color: #0000009c; }
+  .code p {
+    text-decoration: #00000048 underline; }
+    .code p:before {
+      content: attr(data-text);
+      position: absolute;
+      transform-origin: bottom;
+      transform: rotateX(180deg);
+      line-height: 0.96em; }
 
 .buble {
   text-align: left;
   margin-top: 3.5em;
   padding: 0.8em;
   padding-top: 0;
-  background-color: #D9525E;
-  border: solid #175073;
+  background-color: #ef521a7d;
+  border: #3d3a3aaf solid;
   border-radius: 0.75em 0.75em 0.75em 0;
   box-shadow: -0.5em 0.5em 0.625em 0.3125em #635e5e2f; }
   .buble h3 {
@@ -99,7 +110,7 @@ p {
     height: 0.3125em;
     top: 50%;
     transform: translateY(-50%);
-    background: #175073; }
+    background: #3d3a3aaf; }
 
 .box {
   position: relative;
@@ -113,9 +124,9 @@ p {
     transform: translateY(-50%);
     width: 3.125em;
     height: 3.125em;
-    background: #117256;
+    background: #3f69e1;
     border-radius: 100%;
-    border: 0.125em solid #175073; }
+    border: 0.125em solid #3d3a3aaf; }
   .box .date p {
     color: #ffffff;
     margin-top: 0.85em; }
@@ -124,9 +135,9 @@ p {
     left: -5em;
     width: 11.25em;
     padding: 0.9375em;
-    background-color: #D9525E;
+    background-color: #ef521a7d;
     border-radius: 0.3125em;
-    border: 0.125em solid #175073; }
+    border: 0.125em solid #3d3a3aaf; }
   .box .box-top-r {
     top: 7%; }
 
@@ -140,13 +151,13 @@ p {
 .box-bottom .box-content {
   top: 65%; }
   .box-bottom .box-content::before {
-    border-bottom-color: #175073;
+    border-bottom-color: #3d3a3aaf;
     top: -1.25em; }
 
 .box-top .box-content {
   margin-top: 2em; }
   .box-top .box-content::before {
-    border-top-color: #175073;
+    border-top-color: #3d3a3aaf;
     bottom: -1.25em; }
 
 .skill-set h3 {
@@ -156,12 +167,12 @@ p {
 .skillbar {
   position: relative;
   display: block;
-  background: #333333c0;
+  background: rgba(51, 51, 51, 0.877);
   width: 95%;
   margin-bottom: 0.9375em;
   height: 2.1875em;
   border-radius: 1.875em;
-  border: solid #175073;
+  border: solid #3d3a3aaf;
   transition: 0.4s linear;
   transition-property: width, background-color; }
 
@@ -210,14 +221,14 @@ p {
   margin: 0.8em 0; }
   .contact a {
     text-decoration: none;
-    color: #117256;
+    color: #3f69e1;
     font-size: 1.8em;
     font-weight: 800;
     line-height: 1.25em; }
   .contact a:hover,
   .contact a:active {
     color: #ffffffd2;
-    background-color: #D9525E;
+    background-color: #ef521a7d;
     padding: 0.02em 0.5em;
     border-radius: 1em; }
 

@@ -1,13 +1,17 @@
 //CONTACT
 
   .contact{
+
     text-align: left;
+
     padding-left: 10%;
     margin: 0.8em 0;
 
     a{
+
       text-decoration: none;
       color:$titles-color;
+      
       font-size: $big-size;
       font-weight: $big-weight;
       line-height: 1.25em;
@@ -15,6 +19,7 @@
 
     & a:hover,
       a:active{
+
       color: $hover-t-color;
       background-color: $buble-b-color;
 
@@ -23,3 +28,5 @@
     }
 
 }
+
+

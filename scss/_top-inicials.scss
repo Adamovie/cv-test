@@ -36,13 +36,19 @@
     line-height: 0.825em;
 
     padding-top: 0.5em;
+
+    h1{
+
+      text-shadow: -.05em .05em .3125em darken($color: $shadow-color, $amount: 100%);
+    }
+    
   }
 
   .dat{
 
     padding-top: 0.5em;
 
-    color: rgba(0, 0, 0, 0.61);
+    color: #0000009c;
     font-size: $small-size;
     font-weight: $big-weight;
   }
@@ -51,5 +57,28 @@
 
     padding-top: 0.85em;
     
-    color: rgba(0, 0, 0, 0.61) ;
+    color: #0000009c ;
+
+    p{ 
+      
+      text-decoration: #00000048 underline;
+
+      &:before{
+
+      content: attr(data-text);
+      position: absolute;
+
+      transform-origin: bottom;
+      transform: rotateX(180deg);
+
+      line-height: 0.96em;
+      }
+  
+    }
+
+
   }
+
+
+
+  

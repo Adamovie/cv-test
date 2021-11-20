@@ -15,6 +15,7 @@
   }
 
   h3{
+    
     margin: 0.8em 0;
 
     font-size: $small-size;
@@ -22,16 +23,19 @@
   }
 
   p{
+
     font-size: $small-size;
     font-weight: $small-weight;
   }
 
   .container{
+
     max-width: 55%;
     margin:  0 auto;
   }
 
   .line{
+
     display: flex;
     flex-direction: row;
 
@@ -43,12 +47,14 @@
 
 
     &:after {
+
         content: "";
         flex: 1;
         
         border-bottom:  $border-color solid;
 
         margin: auto;
+        margin-left: 0.2em;
 
       }
 
