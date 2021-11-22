@@ -6,7 +6,7 @@
     overlay.appendTo ('body').hide();
 
 certification.find('a').on('click', function(event)
-{
+{ 
     var href= 	$(this).attr('href'),
         image= 	$('<img>', {src: href, alt: 'poop' });
 

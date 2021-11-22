@@ -213,3 +213,23 @@
         max-width: 80%;
     }
 }
+
+////////////////////////////////////////////////////////////////////////////////
+
+@media (max-width:24.375em){
+    .timeline-wrapper {
+        height: 20.75em;
+    
+        .box {
+            min-height: 20.75em;
+            .box-content {
+
+                left: -2.7125em;
+                padding: 0.5em 0;
+            }
+
+            .box-top-r{
+
+                left: 4%;
+            }
+}}}
